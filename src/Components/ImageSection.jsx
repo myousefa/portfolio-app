@@ -39,9 +39,7 @@ function ImageSection() {
                         <p>: Software Engineer</p>
                     </div>
                 </div>
-                <PrimaryButton title = {'Open Resume'} href = {Pdf} target="_blank">
-                    
-                </PrimaryButton>
+                <PrimaryButton title = {'Open Resume'} href = {Pdf} target="_blank"/>
                 
             </div>
         </ImageSectionStyled>

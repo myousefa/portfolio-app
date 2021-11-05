@@ -4,7 +4,7 @@ import { Route,Switch } from 'react-router';
 
 import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage'
-import ResumePage from './Pages/Resume';
+import ResumePage from './Pages/ResumePage';
 import ProjectPage from './Pages/ProjectPage';
 import ContactPage from './Pages/ContactPage';
 
