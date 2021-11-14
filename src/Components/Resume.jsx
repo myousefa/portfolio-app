@@ -41,6 +41,27 @@ function Resume() {
                         subTitle = {'Lionbridge Technologies'}
                         text = {"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolorem asperiores facilis aliquam, reiciendis rerum, itaque repudiandae maxime possimus laborum praesentium. Ipsum sapiente illo aliquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, voluptatem."}/>
                 </div>
+
+                <div className="small-title">
+                    <SmallTitle icon = {school} title = {"Education"} />
+                </div>
+                <div className="resume-content">
+                    <ResumeItem 
+                        year = {'Sept 2021 - Current'}
+                        title = {'Software Engineer'}
+                        subTitle = {'Liberty Mutual Insurance'}
+                        text = {"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolorem asperiores facilis aliquam, reiciendis rerum, itaque repudiandae maxime possimus laborum praesentium. Ipsum sapiente illo aliquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, voluptatem."}/>
+                    <ResumeItem 
+                        year = {'June 2021 - Aug 2021'}
+                        title = {'Software Engineer Intern'}
+                        subTitle = {'Mphasis'}
+                        text = {"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolorem asperiores facilis aliquam, reiciendis rerum, itaque repudiandae maxime possimus laborum praesentium. Ipsum sapiente illo aliquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, voluptatem."}/>
+                    <ResumeItem 
+                        year = {'July 2019 - Sept 2019'}
+                        title = {'Test Associate'}
+                        subTitle = {'Lionbridge Technologies'}
+                        text = {"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolorem asperiores facilis aliquam, reiciendis rerum, itaque repudiandae maxime possimus laborum praesentium. Ipsum sapiente illo aliquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, voluptatem."}/>
+                </div>
             </InnerLayout>
         </ResumeStyled>
     );
